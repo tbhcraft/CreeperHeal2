@@ -102,7 +102,6 @@ private object Blocks13 : VersionBlocks {
                     Material.DEAD_TUBE_CORAL_FAN to OnTopOf,
                     Material.DRAGON_HEAD to OnTopOf,
                     Material.FERN to OnTopOf,
-                    Material.FIRE to OnTopOf,
                     Material.FIRE_CORAL to OnTopOf,
                     Material.FIRE_CORAL_FAN to OnTopOf,
                     Material.GRAY_BANNER to OnTopOf,
