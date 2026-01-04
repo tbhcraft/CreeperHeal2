@@ -7,6 +7,7 @@ import net.pdevita.creeperheal2.constants.ConstantsManager
 import net.pdevita.creeperheal2.core.Explosion
 import net.pdevita.creeperheal2.core.ExplosionManager
 import net.pdevita.creeperheal2.core.Gravity
+import net.pdevita.creeperheal2.listeners.Burn
 import net.pdevita.creeperheal2.listeners.Explode
 import net.pdevita.creeperheal2.utils.Stats
 import org.bukkit.block.Block
@@ -58,6 +59,7 @@ class CreeperHeal2 : JavaPlugin() {
 
     private fun registerEvents() {
         server.pluginManager.registerEvents(Explode(this), this)
+        server.pluginManager.registerEvents(Burn(this), this)
     }
 
     /**
